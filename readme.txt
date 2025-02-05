@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor
+This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. This is a useful plugin
 
 
 == Description ==
