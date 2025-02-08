@@ -10,7 +10,7 @@ Author: WPProAtoZ.com
 Author URI: https://wpproatoz.com
 Text Domain:       wpproatoz-code-snippets
 Update URI:        https://wpproatoz.com/plugins
-GitHub Plugin URI: /Ahkonsu/wpproatoz-date-calculator
+GitHub Plugin URI: /Ahkonsu/wpproatoz-code-snippets
 GitHub Branch: main  // or whatever branch you're using
 */
  
