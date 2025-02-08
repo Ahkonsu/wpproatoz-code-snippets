@@ -16,6 +16,45 @@ GitHub Branch: main  // or whatever branch you're using
  
 // These are extra code snippets to help improve or fix issues in your Elementor site. Also included are other great functions I feel are helpful.
 
+////***check for updates
+add_filter('pre_set_site_transient_update_plugins', 'check_premium_plugin_update');
+
+function check_premium_plugin_update($transient) {
+    if (empty($transient->checked)) {
+        return $transient;
+    }
+
+    $api_url = 'https://your-plugin-update-server.com/check-updates';
+    $plugin_slug = 'your-plugin-folder/your-plugin.php';
+    $current_version = get_plugin_data(WP_PLUGIN_DIR . '/' . $plugin_slug)['Version'];
+
+    $response = wp_remote_post($api_url, [
+        'body' => [
+            'license_key' => get_option('your_plugin_license_key'),
+            'version'     => $current_version,
+            'site_url'    => home_url()
+        ]
+    ]);
+
+    if (!is_wp_error($response)) {
+        $update_data = json_decode(wp_remote_retrieve_body($response));
+        if ($update_data && version_compare($update_data->new_version, $current_version, '>')) {
+            $transient->response[$plugin_slug] = (object) [
+                'slug'        => $plugin_slug,
+                'new_version' => $update_data->new_version,
+                'package'     => $update_data->download_url,
+                'tested'      => $update_data->tested_version,
+                'requires'    => $update_data->requires_version
+            ];
+        }
+    }
+    
+    return $transient;
+}
+
+
+
+
 ////////ELEMENTOR FUNCTIONS//////////
 
 ////////////////////////////

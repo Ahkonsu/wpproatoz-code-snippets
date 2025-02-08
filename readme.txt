@@ -4,7 +4,7 @@ Donate link: http://WPProAtoZ.com/donate/
 Tags: elementor, snippets
 Requires at least: 5.0.1
 Tested up to: 6.7.1
-Stable tag: 1.0
+Stable tag: 0.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,7 @@ This plugin also features a configuration page where you can easilly toggle item
 
 
 an easy to use code snippets
+
 
 This plugin is still expanding and will cover more areas as time goes on. 
 

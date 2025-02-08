@@ -16,7 +16,8 @@ GitHub Branch: main  // or whatever branch you're using
  
 // These are extra code snippets to help improve or fix issues in your Elementor site. Also included are other great functions I feel are helpful.
 
-////***check for updates
+////***check for updates test code
+/*
 add_filter('pre_set_site_transient_update_plugins', 'check_premium_plugin_update');
 
 function check_premium_plugin_update($transient) {
@@ -51,7 +52,7 @@ function check_premium_plugin_update($transient) {
     
     return $transient;
 }
-
+*/
 
 
 
