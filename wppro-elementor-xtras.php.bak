@@ -10,6 +10,8 @@ Author: WPProAtoZ.com
 Author URI: https://wpproatoz.com
 Text Domain:       wpproatoz-code-snippets
 Update URI:        https://wpproatoz.com/plugins
+GitHub Plugin URI: /Ahkonsu/wpproatoz-date-calculator
+GitHub Branch: main  // or whatever branch you're using
 */
  
 // These are extra code snippets to help improve or fix issues in your Elementor site. Also included are other great functions I feel are helpful.
