@@ -10,9 +10,9 @@
  | \____(      )___) )___
   \______(_______;;; __;;;
 
-# PLUGin name
+# WPProAtoZ-Code-Snippets
 
-what the plugin does
+This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. This is a useful plugin
 
 ### About the plugin
 talk about plugin
