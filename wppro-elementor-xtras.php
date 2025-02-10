@@ -38,7 +38,7 @@ return false;
 
 }
 
-require 'plugin-update-checker/plugin-update-checker.php';
+require 'plugin-update-checker-5.5/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $myUpdateChecker = PucFactory::buildUpdateChecker(
