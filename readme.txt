@@ -104,7 +104,7 @@ Visit the configurations page at Tools >> WPPro Code Snippets to choose which sn
 
 == ChangeLog ==
 
-**version 0.5.0**
+**version 0.5.2**
 added the code update chek from github
 
 
