@@ -1,4 +1,14 @@
-                \||/
+  ___  _     _                         
+ / _ \| |   | |                        
+/ /_\ \ |__ | | _____  _ __  ___ _   _ 
+|  _  | '_ \| |/ / _ \| '_ \/ __| | | |
+| | | | | | |   < (_) | | | \__ \ |_| |
+\_| |_/_| |_|_|\_\___/|_| |_|___/\__,_|
+                                       
+                                      
+		
+		
+		\||/
                 |  @___oo
       /\  /\   / (__,,,,|
      ) /^\) ^\/ _)
@@ -19,7 +29,7 @@ Stable tag: 0.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. This is a useful plugin
+This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. The following snippets are available.
 
 
 == Description ==
@@ -54,27 +64,9 @@ To upgrade from a previous version of this plugin, delete the entire folder and 
 
 
 
-Extract all files from the ZIP file, making sure to keep the file structure intact, and then upload it to `/wp-content/plugins/`.
+Download the latest version of plugin from https://github.com/Ahkonsu/wpproatoz-code-snippets/releases/
 
-
-
-This should result in the following file structure:
-
-
-
-`- wp-content
-
-    - plugins
-
-        - wpaz-intranet-lockdown
-
-            | wppro-elementor-xtras.php
-
-            | readme.txt
-
-            | screenshot-1.png
-
-            | screenshot-2.png`
+either unzip and ftp the files to your site or use the WordPress uploader and installer. 
 
 
 
