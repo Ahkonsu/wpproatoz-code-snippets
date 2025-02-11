@@ -1,42 +1,22 @@
 <?php
 /*
-Plugin Name: Elementor and more code snippets Extras from WPProAtoZ.com
+Plugin Name: WPProAtoZ.com Extras Elementor and more code snippets. 
 Plugin URI: https://wpproatoz.com/plugins
-Description: Code Snippets and more Extras for Elementor and other sections of your website from WPProAtoZ.com
+Description: Code Snippets and more Extras for Elementor and other sections of your website from WPProAtoZ.com. As time permits we will add more code snippets you can turn on and off. Find our more at our GitHub Repo https://github.com/Ahkonsu/wpproatoz-code-snippets
 Version: 0.5.4
 Requires at least: 5.2
 Requires PHP:      7.4
 Author: WPProAtoZ.com
 Author URI: https://wpproatoz.com
 Text Domain:       wpproatoz-code-snippets
-Update URI:        https://wpproatoz.com/plugins
-GitHub Plugin URI: /Ahkonsu/wpproatoz-code-snippets
-GitHub Branch: main  // or whatever branch you're using
+Update URI:        https://github.com/Ahkonsu/wpproatoz-code-snippets/releases
+GitHub Plugin URI: https://github.com/Ahkonsu/wpproatoz-code-snippets/releases
+GitHub Branch: main  // 
 */
  
 // These are extra code snippets to help improve or fix issues in your Elementor site. Also included are other great functions I feel are helpful.
 
 ////***check for updates code
-
-
-
-
-////////ELEMENTOR FUNCTIONS//////////
-
-////////////////////////////
-//add function to allow for sidebars
-if (function_exists("register_sidebar")) {
-  register_sidebar();
-}
-
-
-//////////////////////////
-//Remove the auto display of Page/Post titles site wide.
-function ele_disable_page_title( $return ) {
-
-return false;
-
-}
 
 require 'plugin-update-checker-5.5/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
@@ -58,6 +38,25 @@ $myUpdateChecker->setBranch('main');
 
 
 
+////////ELEMENTOR FUNCTIONS//////////
+
+////////////////////////////
+//add function to allow for sidebars
+if (function_exists("register_sidebar")) {
+  register_sidebar();
+}
+
+
+//////////////////////////
+//Remove the auto display of Page/Post titles site wide.
+function ele_disable_page_title( $return ) {
+
+return false;
+
+}
+
+
+
 ///////////////
 // In elementor the load more function sometimes breaks and there is no universal fix for it. However 95% of the time this fixes your issue though. This is a fix for load more showing the same posts over and over again. This may not completly solve it but it does work.
 
@@ -69,6 +68,8 @@ return true;
 
 return $preempt;
 }
+
+
 
 ///////OTHER USEFUL SITE FUNCTIONS////////////
 // these are other site options that are useful
@@ -162,6 +163,15 @@ if ( '' == $text ) {
 return apply_filters('wp_trim_excerpt', $text, $raw_excerpt);
 }
 
+//add a menu link in the plugin list
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'add_action_links');
+
+function add_action_links($links) {
+    $settings_link = '<a href="' . admin_url('tools.php?page=wppro-code-snippets-filters-actions') . '">Settings</a>';
+    array_unshift($links, $settings_link);
+    return $links;
+}
+
 // Register the submenu in "Tools"
 add_action('admin_menu', 'wpproatoz_add_admin_menu');
 
@@ -221,6 +231,15 @@ function wpproatoz_register_settings() {
         ['id' => 'pre_handle_404']
 	);
 
+add_settings_field(
+		'custom_wp_trim_excerpt',
+		'Enable Preserve Excerpt Formatting Filter',
+		'wpproatoz_toggle_field_callback',
+		'wppro-code-snippets-filters-actions',
+		'wpproatoz_main_section',
+        ['id' => 'custom_wp_trim_excerpt']
+	);
+
 	add_settings_field(
 		'add_hide_featured_image_meta_box',
 		'Enable Hide featured images on a post by post basis Action.',
@@ -228,15 +247,6 @@ function wpproatoz_register_settings() {
 		'wppro-code-snippets-filters-actions',
 		'wpproatoz_main_section',
         ['id' => 'add_hide_featured_image_meta_box']
-	);
-
-	add_settings_field(
-		'custom_wp_trim_excerpt',
-		'Enable Preserve Excerpt Formatting Filter',
-		'wpproatoz_toggle_field_callback',
-		'wppro-code-snippets-filters-actions',
-		'wpproatoz_main_section',
-        ['id' => 'custom_wp_trim_excerpt']
 	);
 
 	add_settings_field(
