@@ -25,7 +25,7 @@ Donate link: http://WPProAtoZ.com/donate/
 Tags: elementor, snippets
 Requires at least: 5.0.1
 Tested up to: 6.7.1
-Stable tag: 0.5.3
+Stable tag: 0.5.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -63,11 +63,9 @@ To upgrade from a previous version of this plugin, delete the entire folder and 
 ###Installing The Plugin###
 
 
-
-Download the latest version of plugin from https://github.com/Ahkonsu/wpproatoz-code-snippets/releases/
-
-either unzip and ftp the files to your site or use the WordPress uploader and installer. 
-
+1. Download the plugin ZIP file from the [releases page](https://github.com/Ahkonsu/wpproatoz-code-snippets/releases/).
+2. Upload it to your WordPress site via the **Plugins** > **Add New** > **Upload Plugin**.
+3. Activate the plugin through the **Plugins** menu in WordPress.
 
 
 Then just visit your admin area and activate the plugin.
@@ -84,7 +82,12 @@ Then just visit your admin area and activate the plugin.
 
 Visit the configurations page at Tools >> WPPro Code Snippets to choose which snippetts to turn off and on.
 
+== Key Features ==
 
+- **feature 1**
+- **feature 2**
+- **feature 3**
+- **feature 4**
 
 == Screenshots ==
 

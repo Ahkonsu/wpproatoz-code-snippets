@@ -3,9 +3,9 @@
 Plugin Name: Elementor and more code snippets Extras from WPProAtoZ.com
 Plugin URI: https://wpproatoz.com/plugins
 Description: Code Snippets and more Extras for Elementor and other sections of your website from WPProAtoZ.com
-Version: 0.5.3
+Version: 0.5.4
 Requires at least: 5.2
-Requires PHP:      7.2
+Requires PHP:      7.4
 Author: WPProAtoZ.com
 Author URI: https://wpproatoz.com
 Text Domain:       wpproatoz-code-snippets
