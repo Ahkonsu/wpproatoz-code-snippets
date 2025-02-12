@@ -21,23 +21,21 @@
 
 # WPProAtoZ-Code-Snippets
 
-This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. This is a useful plugin
+This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. The snippets can be turned on or off from the tools menu Tools >> WPPro Code Snippets
 
 ### About the plugin
-talk about plugin
-- **feature 1**
-- **feature 2**
-- **feature 3**
-- **feature 4**
+These are the features so far 
+- Enable Hide elementor Page Title Filter.	
+- Enable Elementor Load More Display Fix Filter	
+- Enable Preserve Excerpt Formatting Filter	
+- Enable Hide featured images on a post by post basis Action.	
+- Enable Add custom CSS to hide the featured image Action.
 
-For more information on the PLUGIN visit the official website: [https:siteurl).
+For more information on the PLUGIN visit the official website: https://WPProAtoZ.com .
 
 ### Key Features
 
-- **feature 1**
-- **feature 2**
-- **feature 3**
-- **feature 4**
+- Easily turn on and off the snippetts you need want.
 
 ## Installation
 
@@ -47,17 +45,11 @@ For more information on the PLUGIN visit the official website: [https:siteurl).
 
 ## Usage
 
-1. **Configure Plugin Settings**: Navigate to **Settings** > ** Settings**.
-2. **more info**: .
-3. **moreinfo**: 
-4. **moreinfo**: 
+1.  Navigate to tools menu Tools >> WPPro Code Snippets
+
 
 ### Admin Settings
 
-- **Settings**: 
-- **settings**: 
-- **settings**: 
-- **settings**: 
 
 ## Frequently Asked Questions
 
@@ -77,7 +69,7 @@ answer.
 
 1. **Admin Settings Page** - description.
 
-![screenshot1](screenshot-1.png)
+![screenshot1](screenshot1.png)
 
 2. ** Output** - answer
 
@@ -85,24 +77,22 @@ answer.
 
 ## Demo
 
-You can view a demo of the plugin in action at [WPProAtoZ.com](https://wpproatoz.com/plugins).
+This is an admin plugin so there is no demo you can get the plugin here at [WPProAtoZ.com](https://wpproatoz.com/plugins).
 
 ## Changelog
 
-### 1.0.0
+### Full change log here https://github.com/Ahkonsu/wpproatoz-code-snippets/compare/v0.5.0...v0.5.4
 
-- Initial release of 
-- Added functionality 
-- Added 
+
 
 ## License
 
 This plugin is licensed under the GPL v2 or later. For more information, please see the [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html).
 
 ## Contributing
-
+Ahkonsu
 Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.
 
 ---
 
-**Note:** This plugin uses any other credits to other code or coders
+**Note:** 

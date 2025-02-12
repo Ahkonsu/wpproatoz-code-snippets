@@ -25,7 +25,7 @@ Donate link: http://WPProAtoZ.com/donate/
 Tags: elementor, snippets
 Requires at least: 5.0.1
 Tested up to: 6.7.1
-Stable tag: 0.5.4
+Stable tag: 0.5.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,22 +82,19 @@ Then just visit your admin area and activate the plugin.
 
 Visit the configurations page at Tools >> WPPro Code Snippets to choose which snippetts to turn off and on.
 
-== Key Features ==
-
-- **feature 1**
-- **feature 2**
-- **feature 3**
-- **feature 4**
 
 == Screenshots ==
 
-
-
-1. The plugin's options page
+screenshot1.png
 
 
 
 == ChangeLog ==
+**version 0.5.5**
+cleaned up readme and adjusted code for plugin ran additional tests
+
+**version 0.5.4**
+some additiona tests the auto update function now working
 
 **version 0.5.3**
 checking the autoupdate

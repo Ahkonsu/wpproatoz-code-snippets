@@ -3,7 +3,7 @@
 Plugin Name: WPProAtoZ.com Extras Elementor and more code snippets. 
 Plugin URI: https://wpproatoz.com/plugins
 Description: Code Snippets and more Extras for Elementor and other sections of your website from WPProAtoZ.com. As time permits we will add more code snippets you can turn on and off. Find our more at our GitHub Repo https://github.com/Ahkonsu/wpproatoz-code-snippets
-Version: 0.5.4
+Version: 0.5.5
 Requires at least: 5.2
 Requires PHP:      7.4
 Author: WPProAtoZ.com
@@ -24,7 +24,7 @@ use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 $myUpdateChecker = PucFactory::buildUpdateChecker(
 	'https://github.com/Ahkonsu/wpproatoz-code-snippets/',
 	__FILE__,
-	'unique-plugin-or-theme-slug'
+	'wpproatoz-code-snippets'
 );
 
 //Set the branch that contains the stable release.
@@ -40,11 +40,6 @@ $myUpdateChecker->setBranch('main');
 
 ////////ELEMENTOR FUNCTIONS//////////
 
-////////////////////////////
-//add function to allow for sidebars
-if (function_exists("register_sidebar")) {
-  register_sidebar();
-}
 
 
 //////////////////////////
