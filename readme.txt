@@ -34,7 +34,7 @@ This plugin allows you to choose from an assortment of code snippets that are us
 
 == Description ==
 
-
+just a test
 This is to allow use of a number of snippets 
 
 
