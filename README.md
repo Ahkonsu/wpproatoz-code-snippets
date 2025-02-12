@@ -25,7 +25,8 @@ This plugin allows you to choose from an assortment of code snippets that are us
 
 ### About the plugin
 These are the features so far 
-- Enable Hide elementor Page Title Filter.	
+- Enable Hide elementor Page Title Filter. This one is to hide the Page/Post title though out the whole site/
+
 - Enable Elementor Load More Display Fix Filter	
 - Enable Preserve Excerpt Formatting Filter	
 - Enable Hide featured images on a post by post basis Action.	
