@@ -25,7 +25,7 @@ This plugin allows you to choose from an assortment of code snippets that are us
 
 ### About the plugin
 These are the features so far 
-- Enable Hide elementor Page Title Filter.	
+- Enable Hide elementor Page Title Filter. This one is to hide the Page/Post title though out the whole site/
 - Enable Elementor Load More Display Fix Filter	
 - Enable Preserve Excerpt Formatting Filter	
 - Enable Hide featured images on a post by post basis Action.	
@@ -36,6 +36,7 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 ### Key Features
 
 - Easily turn on and off the snippetts you need want.
+- save the hassel of placing snippets into the function file.
 
 ## Installation
 
@@ -49,13 +50,14 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 
 
 ### Admin Settings
-
+1. Turn on and off the differnt filters or actions. 
 
 ## Frequently Asked Questions
 
 ### question 1?
 
-answer
+Can I support this quest?
+	Yes you can by going to https://wpproatoz.com and supporting our business. 
 
 ### question 2?
 
@@ -77,7 +79,7 @@ answer.
 
 ## Demo
 
-This is an admin plugin so there is no demo you can get the plugin here at [WPProAtoZ.com](https://wpproatoz.com/plugins).
+This is an admin plugin so there is no demo of it you can get the plugin here at [WPProAtoZ.com](https://wpproatoz.com/plugins).
 
 ## Changelog
 

@@ -39,10 +39,9 @@ $myUpdateChecker->setBranch('main');
 
 
 ////////ELEMENTOR FUNCTIONS//////////
-
-
-
 //////////////////////////
+
+//////////////
 //Remove the auto display of Page/Post titles site wide.
 function ele_disable_page_title( $return ) {
 
@@ -106,9 +105,10 @@ function hide_featured_image_metabox_callback($post) {
     <?php
 
 }
+
+
+/////////////
 // Add custom CSS to hide the featured image when the checkbox is checked
-
-
 
 function custom_css_hide_featured_image() {
 
@@ -195,6 +195,7 @@ function wpproatoz_settings_page() {
     </div>
 	<?php
 }
+			
 // Register settings
 add_action('admin_init', 'wpproatoz_register_settings');
 

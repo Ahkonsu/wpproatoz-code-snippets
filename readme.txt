@@ -34,19 +34,20 @@ This plugin allows you to choose from an assortment of code snippets that are us
 
 == Description ==
 
-just a test
-This is to allow use of a number of snippets 
+This plugin allowa you to turn on and off of a number of code snippets that provide actions or filter to makke things happen. 
 
 
 This plugin also features a configuration page where you can easilly toggle item on and off.
 
 
-an easy to use code snippets
-
-
 This plugin is still expanding and will cover more areas as time goes on. 
 
-
+These are the features so far 
+- Enable Hide elementor Page Title Filter. This one is to hide the Page/Post title though out the whole site/
+- Enable Elementor Load More Display Fix Filter	
+- Enable Preserve Excerpt Formatting Filter	
+- Enable Hide featured images on a post by post basis Action.	
+- Enable Add custom CSS to hide the featured image Action.
 
 == Installation ==
 
@@ -56,8 +57,7 @@ This plugin is still expanding and will cover more areas as time goes on.
 
 
 
-To upgrade from a previous version of this plugin, delete the entire folder and files from the previous version of the plugin and then follow the installation instructions below.
-
+to upgrade just install it once and look for when it needs an update and update in the usual way. 
 
 
 ###Installing The Plugin###
@@ -80,7 +80,7 @@ Then just visit your admin area and activate the plugin.
 
 
 
-Visit the configurations page at Tools >> WPPro Code Snippets to choose which snippetts to turn off and on.
+Visit the configurations page at Tools >> WPPro Code Snippets to choose which snippetts are available to turn off and on.
 
 
 == Screenshots ==
@@ -104,7 +104,6 @@ checking the autoupdate
 added the code update chek from github
 
 
-
 **version 0.5.0**
 This is the beta version
 
@@ -112,4 +111,5 @@ This is the beta version
 == Notes ==
 
 notes
-list up the uses here and more
+Contributions by:
+John, Carl
