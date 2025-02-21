@@ -25,7 +25,7 @@ Donate link: http://WPProAtoZ.com/donate/
 Tags: elementor, snippets
 Requires at least: 5.0.1
 Tested up to: 6.7.1
-Stable tag: 0.5.5
+Stable tag: 0.5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,10 @@ screenshot1.png
 
 
 == ChangeLog ==
+
+**version 0.5.6**
+Added a support page and otheer upgrades
+
 **version 0.5.5**
 cleaned up readme and adjusted code for plugin ran additional tests
 
