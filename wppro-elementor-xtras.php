@@ -3,7 +3,7 @@
 Plugin Name: WPProAtoZ.com Extras Elementor and more code snippets. 
 Plugin URI: https://wpproatoz.com/plugins
 Description: Code Snippets and more Extras for Elementor and other sections of your website from WPProAtoZ.com. As time permits we will add more code snippets you can turn on and off. Find our more at our GitHub Repo https://github.com/Ahkonsu/wpproatoz-code-snippets
-Version: 0.5.5
+Version: 0.5.6
 Requires at least: 5.2
 Requires PHP:      7.4
 Author: WPProAtoZ.com
@@ -35,6 +35,19 @@ $myUpdateChecker->setBranch('main');
  
 //Optional: If you're using a private repository, specify the access token like this:
 //$myUpdateChecker->setAuthentication('your-token-here');
+
+/////support access manager class
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
+// Load the class file if it hasn't been loaded yet
+if ( ! class_exists( 'Support_Access_Manager' ) ) {
+	require_once __DIR__ . '/supportaccess/class-support-access-manager.php';
+}
+
+// Get or create the instance with default settings
+Support_Access_Manager::instance();
 
 
 

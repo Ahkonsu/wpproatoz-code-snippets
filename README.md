@@ -30,6 +30,7 @@ These are the features so far
 - Enable Preserve Excerpt Formatting Filter	
 - Enable Hide featured images on a post by post basis Action.	
 - Enable Add custom CSS to hide the featured image Action.
+- This plugin also adds a new admin page where you can create one off temporary logins you can give to ad min support. 
 
 For more information on the PLUGIN visit the official website: https://WPProAtoZ.com .
 
@@ -37,6 +38,7 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 
 - Easily turn on and off the snippetts you need want.
 - save the hassel of placing snippets into the function file.
+- Adds a support access page.
 
 ## Installation
 
@@ -47,10 +49,12 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 ## Usage
 
 1.  Navigate to tools menu Tools >> WPPro Code Snippets
+2.  Loook fo this admin support page on the Users >> Support Access
 
 
 ### Admin Settings
 1. Turn on and off the differnt filters or actions. 
+2, Admin support access create temp logins for the wite that are limted use and expire. 
 
 ## Frequently Asked Questions
 
@@ -69,11 +73,11 @@ answer.
 
 ## Screenshots
 
-1. **Admin Settings Page** - description.
+1. **Admin Settings Page** - Admin page for snippits.
 
 ![screenshot1](screenshot1.png)
 
-2. ** Output** - answer
+2. ** Support Access Page** - the support access page
 
 ![screenshot2](screenshot-2.png)
 
@@ -92,7 +96,7 @@ This is an admin plugin so there is no demo of it you can get the plugin here at
 This plugin is licensed under the GPL v2 or later. For more information, please see the [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html).
 
 ## Contributing
-Ahkonsu
+Ahkonsu, Carl
 Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.
 
 ---
