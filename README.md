@@ -79,7 +79,7 @@ answer.
 
 2. ** Support Access Page** - the support access page
 
-![screenshot2](screenshot-2.png)
+![screenshot2](screenshot2.png)
 
 ## Demo
 
