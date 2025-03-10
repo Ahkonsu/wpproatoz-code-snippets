@@ -37,7 +37,7 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 ### Key Features
 
 - Easily turn on and off the snippetts you need want.
-- save the hassel of placing snippets into the function file.
+- Save the hassel of placing snippets into the function file.
 - Adds a support access page.
 
 ## Installation
@@ -54,7 +54,7 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 
 ### Admin Settings
 1. Turn on and off the differnt filters or actions. 
-2, Admin support access create temp logins for the wite that are limted use and expire. 
+2. Admin support access create temp logins for the wite that are limted use and expire. 
 
 ## Frequently Asked Questions
 
