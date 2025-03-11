@@ -89,7 +89,9 @@ This is an admin plugin so there is no demo of it you can get the plugin here at
 
 ### Full change log here https://github.com/Ahkonsu/wpproatoz-code-snippets/compare/v0.5.0...v0.5.4
 
+## Future Updates
 
+The plugin will automatically fetch updates via the WordPress admin from this Github repository using the WordPress update mechanism (you will be notified in the admin when an update is available).
 
 ## License
 
