@@ -54,7 +54,9 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 
 ### Admin Settings
 1. Turn on and off the differnt filters or actions. 
-2, Admin support access creates temp logins for the site that are limted use and expire. 
+
+2. Admin support access creates temp logins for the site that are limted use and expire. 
+
 
 ## Frequently Asked Questions
 
