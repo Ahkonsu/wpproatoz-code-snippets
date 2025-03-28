@@ -49,12 +49,14 @@ For more information on the PLUGIN visit the official website: https://WPProAtoZ
 ## Usage
 
 1.  Navigate to tools menu Tools >> WPPro Code Snippets
-2.  Loook fo this admin support page on the Users >> Support Access
+2.  Look for the admin support page on the Users >> Support Access
 
 
 ### Admin Settings
 1. Turn on and off the differnt filters or actions. 
-2. Admin support access create temp logins for the wite that are limted use and expire. 
+
+2. Admin support access creates temp logins for the site that are limted use and expire. 
+
 
 ## Frequently Asked Questions
 
@@ -65,11 +67,12 @@ Can I support this quest?
 
 ### question 2?
 
-answer
+Will there be more features?
+yes we will ad them as we find them useful.
 
 ### question 3?
-
-answer.
+I have ha sugestion for "X" snippet.
+we are always looign for additions please submit it here. 
 
 ## Screenshots
 
@@ -89,7 +92,9 @@ This is an admin plugin so there is no demo of it you can get the plugin here at
 
 ### Full change log here https://github.com/Ahkonsu/wpproatoz-code-snippets/compare/v0.5.0...v0.5.4
 
+## Future Updates
 
+The plugin will automatically fetch updates via the WordPress admin from this Github repository using the WordPress update mechanism (you will be notified in the admin when an update is available).
 
 ## License
 
