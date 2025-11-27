@@ -1,17 +1,20 @@
 <?php
 /*
-Plugin Name: == WPProAtoZ Extras for Elementor and more code snippets. 
-Plugin URI: https://wpproatoz.com/plugins
+Plugin Name: WPProAtoZ Elementor and Code Snippets. 
 Description: Code Snippets and more Extras for Elementor and other sections of your website from WPProAtoZ.com. As time permits we will add more code snippets you can turn on and off. Find our more at our GitHub Repo https://github.com/Ahkonsu/wpproatoz-code-snippets
+Plugin URI: https://wpproatoz.com/plugins
 Version: 1.0
 Requires at least: 6.0
 Requires PHP:      8.0
-Author: WPProAtoZ.com
+License: GPLv2 or later
+Author: WPProAtoZ.com / John Overall
 Author URI: https://wpproatoz.com
+Plugin URI: https://wpproatoz.com/wp-pro-a-to-z-plugins-available/
 Text Domain:       wpproatoz-code-snippets
 Update URI:        https://github.com/Ahkonsu/wpproatoz-code-snippets/releases
 GitHub Plugin URI: https://github.com/Ahkonsu/wpproatoz-code-snippets/releases
-GitHub Branch: main  // 
+GitHub Branch: main  
+// 
 */
 
 // These are extra code snippets to help improve or fix issues in your Elementor site. Also included are other great functions I feel are helpful.

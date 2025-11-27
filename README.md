@@ -1,24 +1,3 @@
-  ___  _     _                         
- / _ \| |   | |                        
-/ /_\ \ |__ | | _____  _ __  ___ _   _ 
-|  _  | '_ \| |/ / _ \| '_ \/ __| | | |
-| | | | | | |   < (_) | | | \__ \ |_| |
-\_| |_/_| |_|_|\_\___/|_| |_|___/\__,_|
-                                       
-     
-		
-		\||/
-                |  @___oo
-      /\  /\   / (__,,,,|
-     ) /^\) ^\/ _)
-     )   /^\/   _)
-     )   _ /  / _)
- /\  )/\/ ||  | )_)
-<  >      |(,,) )__)
- ||      /    \)___)\
- | \____(      )___) )___
-  \______(_______;;; __;;;
-
 # WPProAtoZ-Code-Snippets
 
 This plugin allows you to choose from an assortment of code snippets that are useful when building out your website especially if you use Elementor. The snippets can be turned on or off from the tools menu Tools >> WPPro Code Snippets
@@ -68,11 +47,11 @@ Can I support this quest?
 ### question 2?
 
 Will there be more features?
-yes we will ad them as we find them useful.
+Yes we will ad them as we find them useful.
 
 ### question 3?
-I have ha sugestion for "X" snippet.
-we are always looign for additions please submit it here. 
+I have have sugestion for an "X" snippet.
+We are always lookign for additions please submit it here. https://github.com/Ahkonsu/wpproatoz-code-snippets/issues
 
 ## Screenshots
 
@@ -101,7 +80,7 @@ The plugin will automatically fetch updates via the WordPress admin from this Gi
 This plugin is licensed under the GPL v2 or later. For more information, please see the [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html).
 
 ## Contributing
-Ahkonsu, Carl
+Ahkonsu, Carl, Grok
 Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.
 
 ---
